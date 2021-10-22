@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">슥~</string>
+    <string name="passwd_title">암호</string>
+    <string name="passwd_guid">암호를 입력해주세요.</string>
+    <string name="passwd_guid_set_ssg">슥~의 암호를 설정해주세요.</string>
+    <string name="passwd_guid_set_doorlock">도어락의 암호를 설정해주세요.</string>
+    <string name="passwd_guid_set_more">암호를 한번 더 입력해주세요.</string>
+    <string name="passwd_guid_set_re">비밀번호가 일치하지 않습니다.</string>
+    <string name="passwd_ipt">●</string>
+    <string name="passwd_ipt_blank">_</string>
+    <string name="tittle">슥~</string>
+    <string name="title">슥~</string>
+    <string name="msg_loding">도어락 설정 중~</string>
+</resources>
+
+
+    <!--<resources>-->
+    <!--<string name="app_name">슥~ Demo</string>-->
+    <!--<string name="passwd_title">암호</string>-->
+    <!--<string name="passwd_guid">암호를 입력해주세요.</string>-->
+    <!--<string name="passwd_guid_set">암호를 설정해주세요.</string>-->
+    <!--<string name="passwd_guid_set_more">암호를 한번 더 입력해주세요.</string>-->
+    <!--<string name="passwd_guid_set_re">비밀번호가 일치하지 않습니다.</string>-->
+    <!--<string name="passwd_ipt">●</string>-->
+    <!--<string name="passwd_ipt_blank">_</string>-->
+    <!--<string name="tittle">슥~</string>-->
+    <!--<string name="title">슥~</string>-->
+<!--</resources>-->

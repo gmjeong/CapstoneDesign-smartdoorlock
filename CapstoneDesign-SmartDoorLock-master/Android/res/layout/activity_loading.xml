@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="18dp"
+android:paddingRight="18dp"
+android:background="@color/colorPrimaryDark">
+
+<TextView
+    android:id="@+id/loading_title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fontFamily="@font/bm"
+    android:gravity="center"
+    android:text="@string/title"
+    android:textSize="80sp"
+    android:textStyle="bold|italic"
+    app:fontFamily="@font/bm" />
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:paddingLeft="18dp"-->
+    <!--android:paddingRight="18dp"-->
+    <!--android:background="@color/colorPrimaryDark">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/loading_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:fontFamily="@font/bm"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/title"-->
+        <!--android:textSize="80sp"-->
+        <!--android:textStyle="bold|italic"-->
+        <!--app:fontFamily="@font/bm" />-->
+<!--</LinearLayout>-->

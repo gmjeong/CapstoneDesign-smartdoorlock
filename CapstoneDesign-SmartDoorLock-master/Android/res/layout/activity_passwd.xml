@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/passwd-title"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/passwd_title"
+        android:textColor="@color/text"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/passwd-guidMsg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:text="@string/passwd_guid"
+        android:textColor="@color/text" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/passwd-ipt-1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/passwd_ipt"
+            android:textSize="30sp"
+            android:textColor="@color/btn_passwd"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            />
+        <TextView
+            android:id="@+id/passwd-ipt-2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/passwd_ipt"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/btn_passwd"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            />
+        <TextView
+            android:id="@+id/passwd-ipt-3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/passwd_ipt"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/btn_passwd"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            />
+        <TextView
+            android:id="@+id/passwd-ipt-4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/passwd_ipt"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/btn_passwd"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            />
+        <TextView
+            android:id="@+id/passwd-ipt-5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/passwd_ipt"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/btn_passwd"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            />
+        <TextView
+            android:id="@+id/passwd-ipt-6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/passwd_ipt"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/btn_passwd"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="@color/colorPrimary" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/btn_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/colorPrimary" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/passwd-btn-1"
+            android:onClick="eh_click_passwdBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/passwd-btn-2"
+            android:onClick="eh_click_passwdBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/passwd-btn-3"
+            android:onClick="eh_click_passwdBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="3" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/passwd-btn-4"
+            android:onClick="eh_click_passwdBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/passwd-btn-5"
+            android:onClick="eh_click_passwdBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/passwd-btn-6"
+            android:onClick="eh_click_passwdBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="6" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/passwd-btn-7"
+            android:onClick="eh_click_passwdBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/passwd-btn-8"
+            android:onClick="eh_click_passwdBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/passwd-btn-9"
+            android:onClick="eh_click_passwdBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="9" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="  " />
+
+        <Button
+            android:id="@+id/passwd-btn-0"
+            android:onClick="eh_click_passwdBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:textSize="20sp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/passwd-btn-erase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/btn_passwd"
+            android:onClick="eh_click_passwdBtnErase"
+            android:text="DEL"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
